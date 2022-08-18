@@ -1,0 +1,17 @@
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+// #main-color {
+//     color: #C70101;
+// }
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'base/variable';
+@import 'blocks/promo';
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+@import 'blocks/edge';

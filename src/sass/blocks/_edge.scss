@@ -1,0 +1,41 @@
+.edge {
+    min-height: 470px;
+    padding: 70px 0 65px 0;
+    &__name {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+
+        color: #0D0D0D;
+    }
+    &__icons {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icon {
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+        span{
+            display: block;
+            text-align: center;
+            // margin-top: 50px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+            color: #0D0D0D;
+        }
+        &__suptext {
+
+            // font-style: normal;
+            // font-weight: 300;
+            // font-size: 14px;
+            // line-height: 18px;
+
+            color: #ff0a0a;
+        }
+    }
+}
