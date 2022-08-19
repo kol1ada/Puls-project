@@ -20,6 +20,7 @@
             margin: 0 auto;
         }
         span{
+            margin-top: 35px;
             display: block;
             text-align: center;
             // margin-top: 50px;
@@ -28,14 +29,28 @@
             line-height: 29px;
             color: #0D0D0D;
         }
-        &__suptext {
+        p {
+            text-align: center;
+            margin-top: 20px;
+            
+            width: 270px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 18px;
 
-            // font-style: normal;
-            // font-weight: 300;
-            // font-size: 14px;
-            // line-height: 18px;
+            color: #0D0D0D;
+            a {
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 18px;
+                
+                text-decoration-line: underline;
 
-            color: #ff0a0a;
+                color: #FF0000;
+
+
+            }
         }
     }
 }
