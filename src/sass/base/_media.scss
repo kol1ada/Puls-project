@@ -60,6 +60,19 @@
             max-width: 400px;
         }  
     } 
+
+    .catalog {
+        h2 {
+            font-size: 25px;
+            justify-content: center;
+        }
+        &__tab {
+            width: 140px;
+            div {
+               font-size: 10px; 
+            }
+        }
+    }
 }
 
 @media (max-width: 540px) {
@@ -110,7 +123,7 @@
             justify-content: center;
         }
         &__tab {
-            width: 120px;
+            width: 100px;
             div {
                font-size: 10px; 
             }
@@ -133,6 +146,11 @@
         &__about {
             font-size: 12px;
             line-height: 22px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 370px ;
         }
     }
 
